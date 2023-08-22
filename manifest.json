@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+
+  "name": "XyuDeck",
+  "description": "XyuDeck",
+  "version": "1.0",
+
+  "action": {
+    "default_title": "XyuDeck",
+    "default_popup": "elmext.html"
+  },
+  "options_page": "dashboard.html",
+  "permissions": [
+    "tabs",
+    "storage",
+    "unlimitedStorage",
+    "activeTab",
+    "browsingData",
+    "cookies",
+    "tabGroups",
+    "scripting"
+  ]
+}
